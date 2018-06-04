@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="start"
+        android:padding="@dimen/_10sdp"
+        android:background="@color/blue"
+        >
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/earth_globe"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="@string/map"
+            android:textAlignment="viewStart"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/white"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/_5sdp"
+            android:textAlignment="viewEnd"
+            android:layout_height="wrap_content"
+            android:text="@string/back"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_14sdp"
+            android:textColor="@color/white"
+            tools:ignore="RtlCompat" />
+        <ImageView
+            android:layout_width="@dimen/_25sdp"
+            android:layout_height="@dimen/_25sdp"
+            android:src="@drawable/back"/>
+    </LinearLayout>
+
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="1"
+    >
+
+<fragment
+    android:id="@+id/map"
+    android:name="com.google.android.gms.maps.SupportMapFragment"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LibraryMapActivity" />
+    <TextView
+        android:elevation="@dimen/_5sdp"
+        android:layout_margin="@dimen/_10sdp"
+        android:textAlignment="viewStart"
+        android:paddingEnd="@dimen/_15sdp"
+        android:drawableEnd="@drawable/path3"
+        android:drawablePadding="@dimen/_5sdp"
+        android:gravity="center|start"
+        android:paddingStart="@dimen/_17sdp"
+        android:text="@string/libraies"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/gray"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:background="@drawable/txt_shape"
+        android:id="@+id/txt_libraries"
+        tools:ignore="RtlCompat" />
+
+    <include
+        android:id="@+id/library_view"
+        layout="@layout/library_map_item"
+        android:layout_gravity="bottom"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:layout_marginEnd="@dimen/_20sdp"
+         android:layout_marginStart="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        />
+</FrameLayout>
+</LinearLayout>
