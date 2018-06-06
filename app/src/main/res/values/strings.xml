@@ -153,4 +153,10 @@
     <string name="tasmem_handassy_book">كتاب التصميم الهندسي</string>
     <string name="buying_books">شراء كتب وملازم</string>
     <string name="university_news">اخبار الجامعات</string>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
 </resources>

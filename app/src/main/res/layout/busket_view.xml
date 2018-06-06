@@ -17,7 +17,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="@dimen/_7sdp"
         android:layout_marginEnd="@dimen/_2sdp"
-        android:text="5"
+
         android:textColor="@color/blue"
         android:textSize="@dimen/_10sdp"
         tools:ignore="RtlCompat" />

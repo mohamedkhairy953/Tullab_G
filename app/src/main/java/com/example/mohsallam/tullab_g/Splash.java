@@ -6,7 +6,6 @@ import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
 
-import java.awt.SplashScreen;
 
 /**
  * Created by KhAiry on 6/6/2018.
@@ -28,7 +27,7 @@ public class Splash extends AppCompatActivity {
             public void run() {
                 // This method will be executed once the timer is over
                 // Start your app main activity
-                Intent i = new Intent(Splash.this, MainActivity.class);
+                Intent i = new Intent(Splash.this, NavigationActivity.class);
                 startActivity(i);
 
                 // close this activity

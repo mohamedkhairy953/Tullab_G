@@ -10,9 +10,18 @@
 
         <item name="android:fontFamily">@fonts/dalal_st.ttf</item>
     </style>
-    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"><!-- Customize your theme here. --><item name="colorPrimary">@color/colorPrimary</item><item name="colorPrimaryDark">@color/colorPrimaryDark</item><item name="colorAccent">@color/colorAccent</item></style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.Light.NoActionBar"><!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
 
     <style name="spinner_style">
         <item name="android:background">@drawable/spinner_right_arrow</item>
     </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>
