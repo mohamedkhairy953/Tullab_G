@@ -1,10 +1,18 @@
 package com.example.mohsallam.tullab_g;
 
+import android.content.Context;
 import android.content.Intent;
+import android.content.res.Configuration;
+import android.content.res.Resources;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.support.annotation.Nullable;
 import android.support.v7.app.AppCompatActivity;
+
+import java.util.Locale;
+
+import io.github.inflationx.viewpump.ViewPumpContextWrapper;
 
 
 /**
@@ -16,6 +24,8 @@ public class Splash extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.splash_activity);
+        updateResources(this,"ar");
+
         new Handler().postDelayed(new Runnable() {
 
             /*
@@ -34,5 +44,25 @@ public class Splash extends AppCompatActivity {
                 finish();
             }
         }, 3000);
+    }
+    @Override
+    protected void attachBaseContext(Context newBase) {
+        super.attachBaseContext(ViewPumpContextWrapper.wrap(newBase));
+    }
+
+    private static void updateResources(Context context, String language) {
+        Locale locale = new Locale(language);
+        Locale.setDefault(locale);
+
+        Resources res = context.getResources();
+        Configuration config = res.getConfiguration();
+        if (Build.VERSION.SDK_INT >= 17) {
+            config.setLocale(locale);
+            config.setLayoutDirection(locale);
+
+        } else {
+            config.locale = locale;
+            res.updateConfiguration(config, res.getDisplayMetrics());
+        }
     }
 }
