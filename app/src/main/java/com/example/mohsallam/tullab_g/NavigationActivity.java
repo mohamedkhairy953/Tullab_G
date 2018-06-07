@@ -30,7 +30,7 @@ public class NavigationActivity extends AppCompatActivity
             public void onClick(View view) {
                 drawer.openDrawer(GravityCompat.START);
                 Log.d("sssss", "onClick: ");
-                Toast.makeText(NavigationActivity.this, "f", Toast.LENGTH_SHORT).show();
+               // Toast.makeText(NavigationActivity.this, "f", Toast.LENGTH_SHORT).show();
             }
         });
 
