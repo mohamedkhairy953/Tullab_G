@@ -54,7 +54,7 @@
             />
 
         <Button
-            android:elevation="@dimen/_5sdp"
+
             android:layout_marginTop="@dimen/_20sdp"
             android:padding="@dimen/_5sdp"
             android:layout_gravity="center"

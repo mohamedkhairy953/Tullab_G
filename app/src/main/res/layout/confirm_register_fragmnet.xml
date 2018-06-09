@@ -71,7 +71,7 @@
                 android:gravity="center"
                 android:textSize="@dimen/_14sdp"
                 android:id="@+id/con_num4"
-                android:elevation="@dimen/_5sdp"
+
                 android:layout_marginEnd="@dimen/_10sdp"
                 android:background="@drawable/edt_shape"
                 android:layout_width="0dp"
@@ -81,7 +81,7 @@
                 android:layout_height="@dimen/_40sdp"
                 tools:ignore="RtlCompat" />
             <EditText
-                android:elevation="@dimen/_5sdp"
+
                 android:gravity="center"
                 android:textSize="@dimen/_14sdp"
                 android:layout_marginEnd="@dimen/_10sdp"
@@ -94,7 +94,7 @@
                 android:inputType="number"
                 android:layout_height="@dimen/_40sdp" />
             <EditText
-                android:elevation="@dimen/_5sdp"
+
                 android:id="@+id/con_num2"
                 android:gravity="center"
                 android:textSize="@dimen/_14sdp"
@@ -111,7 +111,7 @@
                 android:inputType="number"
                 android:gravity="center"
                 android:textSize="@dimen/_14sdp"
-                android:elevation="@dimen/_5sdp"
+
                 android:id="@+id/con_num1"
                 tools:ignore="RtlCompat"
                 android:background="@drawable/edt_shape"
@@ -130,7 +130,7 @@
             android:textColor="@color/blue"
             />
         <EditText
-            android:elevation="@dimen/_5sdp"
+
             android:id="@+id/edt_password_con"
             android:padding="@dimen/_7sdp"
             android:hint="@string/password"
@@ -145,7 +145,7 @@
             android:inputType="textPassword"
             tools:ignore="RtlCompat" />
         <EditText
-            android:elevation="@dimen/_5sdp"
+
             android:textAlignment="viewStart"
             android:id="@+id/edt_password_con_rep"
             android:padding="@dimen/_7sdp"
@@ -166,7 +166,7 @@
             android:layout_weight="2"
             />
         <Button
-            android:elevation="@dimen/_5sdp"
+
             android:padding="@dimen/_5sdp"
             android:layout_gravity="center"
             android:layout_width="match_parent"

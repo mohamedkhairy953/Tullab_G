@@ -16,7 +16,7 @@
         >
 
         <TextView
-            android:elevation="@dimen/_5sdp"
+
             android:textAlignment="viewStart"
             android:paddingEnd="@dimen/_15sdp"
             android:drawableEnd="@drawable/path3"
@@ -34,7 +34,7 @@
             android:id="@+id/txt_faculty_name"
             tools:ignore="RtlCompat" />
         <TextView
-            android:elevation="@dimen/_5sdp"
+
             android:textAlignment="viewStart"
             android:paddingEnd="@dimen/_15sdp"
             android:drawableEnd="@drawable/path3"
@@ -52,7 +52,7 @@
             android:id="@+id/txt_collage_name"
             tools:ignore="RtlCompat" />
         <TextView
-            android:elevation="@dimen/_5sdp"
+
             android:textAlignment="viewStart"
             android:paddingEnd="@dimen/_15sdp"
             android:drawableEnd="@drawable/path3"
@@ -70,7 +70,7 @@
             android:id="@+id/txt_ferqa_name"
             tools:ignore="RtlCompat" />
         <TextView
-            android:elevation="@dimen/_5sdp"
+
             android:textAlignment="viewStart"
             android:paddingEnd="@dimen/_15sdp"
             android:drawableEnd="@drawable/path3"
@@ -90,7 +90,7 @@
 
 
         <Button
-            android:elevation="@dimen/_5sdp"
+
             android:layout_marginTop="@dimen/_25sdp"
             android:padding="@dimen/_5sdp"
             android:layout_gravity="center"

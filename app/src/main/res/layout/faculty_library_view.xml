@@ -20,7 +20,7 @@
         >
 
         <TextView
-            android:elevation="@dimen/_5sdp"
+
             android:textAlignment="viewStart"
             android:paddingEnd="@dimen/_15sdp"
             android:drawableEnd="@drawable/path3"

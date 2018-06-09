@@ -36,7 +36,7 @@
             />
 
         <EditText
-            android:elevation="@dimen/_5sdp"
+
             android:padding="@dimen/_7sdp"
             android:hint="@string/email"
             android:layout_marginTop="30dp"
@@ -58,7 +58,7 @@
             android:orientation="horizontal"
             >
             <Button
-                android:elevation="@dimen/_5sdp"
+
                 android:padding="@dimen/_5sdp"
                 android:layout_gravity="center"
                 android:layout_width="0dp"
@@ -75,7 +75,7 @@
 
             <Button
                 android:layout_marginStart="@dimen/_7sdp"
-                android:elevation="@dimen/_5sdp"
+
                 android:padding="@dimen/_5sdp"
                 android:layout_gravity="center"
                 android:layout_width="0dp"

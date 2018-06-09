@@ -43,7 +43,7 @@
     android:orientation="vertical"
     >
     <EditText
-        android:elevation="@dimen/_5sdp"
+
         android:textSize="@dimen/_12sdp"
         android:padding="@dimen/_7sdp"
         android:hint="@string/phone_email"
@@ -64,7 +64,7 @@
         android:textSize="@dimen/_12sdp"
         android:inputType="textPassword"
         android:textAlignment="viewStart"
-        android:elevation="@dimen/_5sdp"
+
         android:id="@+id/edt_password"
         android:padding="@dimen/_7sdp"
         android:hint="@string/password"
@@ -93,7 +93,7 @@
         />
 
     <Button
-        android:elevation="@dimen/_5sdp"
+
 
         android:padding="@dimen/_5sdp"
         android:layout_gravity="center"
@@ -121,7 +121,7 @@
         android:layout_marginBottom="@dimen/_10sdp"
         >
         <Button
-            android:elevation="@dimen/_5sdp"
+
 
             android:padding="@dimen/_5sdp"
             android:layout_gravity="center"
