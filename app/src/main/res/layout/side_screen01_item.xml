@@ -1,238 +1,246 @@
 <?xml version="1.0" encoding="utf-8"?>
-<layout xmlns:android="http://schemas.android.com/apk/res/android">
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <ScrollView
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
+        <android.support.v7.widget.CardView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="20dp"
-            android:background="@color/White"
-            android:orientation="vertical">
+            app:cardBackgroundColor="@color/white"
+            app:cardElevation="2dp"
+            >
 
             <LinearLayout
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="8dp"
-                    android:text="@string/service_type" />
-
-                <TextView
-                    android:id="@+id/serviceType"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_margin="8dp"
-                    android:text="كتاب التصميم الهندسي"
-                    android:textColor="@color/Pink" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@color/Hard_Gray" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="8dp"
-                    android:text="@string/seller" />
-
-                <TextView
-                    android:id="@+id/seller"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_margin="8dp"
-                    android:text="مكتب الحرمين"
-                    android:textColor="@color/Black" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@color/Hard_Gray" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="8dp"
-                    android:text="@string/price" />
-
-                <TextView
-                    android:id="@+id/price"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_margin="8dp"
-                    android:text="80 جنيه مصري"
-                    android:textColor="@color/Black" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@color/Hard_Gray" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="8dp"
-                    android:text="@string/quantity" />
-
-                <TextView
-                    android:id="@+id/quantity"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_margin="8dp"
-                    android:text="1"
-                    android:textColor="@color/Black" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@color/Hard_Gray" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="8dp"
-                    android:text="@string/total" />
-
-                <TextView
-                    android:id="@+id/tota"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_margin="8dp"
-                    android:text="80 جنيه مصري"
-                    android:textColor="@color/Black" />
-
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:background="@color/Hard_Gray" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="8dp"
-                    android:text="@string/discount_voucher" />
-
-                <EditText
-                    android:id="@+id/discountVoucher"
-                    android:layout_width="match_parent"
-                    android:layout_height="@dimen/edt_height"
-                    android:layout_gravity="end"
-                    android:gravity="center"
-                    android:layout_margin="8dp"
-                    android:text="976699"
-                    android:background="@drawable/edt_shape"
-                    android:textColor="@color/Black" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
-
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="right"
-                    android:layout_margin="8dp"
-                    android:text="@string/total_after_discount" />
-
-                <TextView
-                    android:id="@+id/totalAfterDiscount"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:layout_margin="8dp"
-                    android:text="80 جنيه مصري"
-                    android:textColor="@color/Black" />
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginLeft="10dp"
-                    android:layout_marginRight="10dp"
-                    android:weightSum="4"
-                    android:orientation="horizontal">
+                    android:orientation="vertical">
 
-
-                    <Button
-                        android:id="@+id/buyBtn"
+                    <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
+                        android:layout_gravity="right"
                         android:layout_margin="8dp"
-                        android:layout_weight="3"
-                        android:background="@drawable/btn_shape_light_green"
-                        android:text="شراء" />
-                    <Button
+                        android:text="@string/service_type" />
+
+                    <TextView
+                        android:id="@+id/serviceType"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:layout_weight="1"
-                        android:id="@+id/deleteBtn"
+                        android:layout_gravity="center_horizontal"
                         android:layout_margin="8dp"
-                        android:background="@drawable/btn_shape_pink"
-                        android:text="حذف" />
+                        android:text="كتاب التصميم الهندسي"
+                        android:textColor="@color/Pink" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/Hard_Gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="8dp"
+                        android:text="@string/seller" />
+
+                    <TextView
+                        android:id="@+id/seller"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="8dp"
+                        android:text="مكتب الحرمين"
+                        android:textColor="@color/Black" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/Hard_Gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="8dp"
+                        android:text="@string/price" />
+
+                    <TextView
+                        android:id="@+id/price"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="8dp"
+                        android:text="80 جنيه مصري"
+                        android:textColor="@color/Black" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/Hard_Gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="8dp"
+                        android:text="@string/quantity" />
+
+                    <TextView
+                        android:id="@+id/quantity"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="8dp"
+                        android:text="1"
+                        android:textColor="@color/Black" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/Hard_Gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="8dp"
+                        android:text="@string/total" />
+
+                    <TextView
+                        android:id="@+id/tota"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="8dp"
+                        android:text="80 جنيه مصري"
+                        android:textColor="@color/Black" />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:background="@color/Hard_Gray" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="8dp"
+                        android:text="@string/discount_voucher" />
+
+                    <EditText
+                        android:id="@+id/discountVoucher"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/edt_height"
+                        android:layout_gravity="end"
+                        android:layout_margin="8dp"
+                        android:background="@drawable/edt_shape"
+                        android:gravity="center"
+                        android:text="976699"
+                        android:textColor="@color/Black" />
 
                 </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_margin="8dp"
+                        android:text="@string/total_after_discount" />
+
+                    <TextView
+                        android:id="@+id/totalAfterDiscount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_margin="8dp"
+                        android:text="80 جنيه مصري"
+                        android:textColor="@color/Black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:orientation="horizontal"
+                        android:weightSum="4">
+
+
+                        <Button
+                            android:id="@+id/buyBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:layout_weight="3"
+                            android:background="@drawable/btn_shape_light_green"
+                            android:text="شراء" />
+
+                        <Button
+                            android:id="@+id/deleteBtn"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="8dp"
+                            android:layout_weight="1"
+                            android:background="@drawable/btn_shape_pink"
+                            android:text="حذف" />
+
+                    </LinearLayout>
+                </LinearLayout>
+
             </LinearLayout>
-
-        </LinearLayout>
-
+        </android.support.v7.widget.CardView>
     </ScrollView>
 </layout>
