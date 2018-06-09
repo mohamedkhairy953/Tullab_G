@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/baby_Blue"
+    android:orientation="vertical"
+    >
+
+    <include layout="@layout/simple_toolbar" />
+
+    <TextView
+        android:layout_marginTop="@dimen/_20sdp"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_15sdp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="جدول المحاضرات "
+        />
+    
+    <Button
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_14sdp"
+        android:paddingStart="@dimen/_90sdp"
+        android:paddingEnd="@dimen/_110sdp"
+        android:drawableEnd="@drawable/path856"
+        android:gravity="center"
+        android:text="تنزيل"
+        android:background="@drawable/btn_shape_white"
+        android:id="@+id/btn_download"
+        tools:ignore="RtlCompat" />
+
+    <ImageView
+        android:layout_margin="@dimen/_20sdp"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_180sdp"
+        android:src="@color/white"
+        />
+</LinearLayout>

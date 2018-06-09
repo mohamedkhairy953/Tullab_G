@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+    <include layout="@layout/simple_toolbar"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingEnd="@dimen/_20sdp"
+        android:paddingStart="@dimen/_20sdp"
+        android:background="@color/baby_Blue"
+        >
+
+        <TextView
+            android:elevation="@dimen/_5sdp"
+            android:textAlignment="viewStart"
+            android:paddingEnd="@dimen/_15sdp"
+            android:drawableEnd="@drawable/path3"
+            android:drawableStart="@drawable/black_graduation_cap_tool_of_university_student_for_head"
+            android:drawablePadding="@dimen/_10sdp"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_7sdp"
+            android:text="جامعة اسكندريه"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/edt_shape"
+            android:id="@+id/txt_faculty_name"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:elevation="@dimen/_5sdp"
+            android:textAlignment="viewStart"
+            android:paddingEnd="@dimen/_15sdp"
+            android:drawableEnd="@drawable/path3"
+            android:drawableStart="@drawable/school_campus"
+            android:drawablePadding="@dimen/_10sdp"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_7sdp"
+            android:text="كلية الهندسة"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/edt_shape"
+            android:id="@+id/txt_collage_name"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:elevation="@dimen/_5sdp"
+            android:textAlignment="viewStart"
+            android:paddingEnd="@dimen/_15sdp"
+            android:drawableEnd="@drawable/path3"
+            android:drawableStart="@drawable/test"
+            android:drawablePadding="@dimen/_10sdp"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_7sdp"
+            android:text="الفرقة الثانية"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/edt_shape"
+            android:id="@+id/txt_ferqa_name"
+            tools:ignore="RtlCompat" />
+        <TextView
+            android:elevation="@dimen/_5sdp"
+            android:textAlignment="viewStart"
+            android:paddingEnd="@dimen/_15sdp"
+            android:drawableEnd="@drawable/path3"
+            android:drawableStart="@drawable/molecule"
+            android:drawablePadding="@dimen/_10sdp"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_7sdp"
+            android:text="قسم مدنى"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/edt_shape"
+            android:id="@+id/txt_department_name"
+            tools:ignore="RtlCompat" />
+
+
+        <Button
+            android:elevation="@dimen/_5sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:padding="@dimen/_5sdp"
+            android:layout_gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_shape"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp"
+            android:text="@string/choose_hint"
+            android:id="@+id/btn_choose"
+            />
+    </LinearLayout>
+    
+
+</LinearLayout>

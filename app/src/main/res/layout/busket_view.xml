@@ -15,9 +15,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:layout_marginBottom="@dimen/_7sdp"
+        android:layout_marginBottom="@dimen/_8sdp"
         android:layout_marginEnd="@dimen/_2sdp"
-
+        android:text="5"
         android:textColor="@color/blue"
         android:textSize="@dimen/_10sdp"
         tools:ignore="RtlCompat" />

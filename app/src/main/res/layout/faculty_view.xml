@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_14sdp"
+        android:background="@color/white"
+        android:padding="@dimen/_15sdp"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_12sdp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:textColor="@color/black"
+            android:text="جامعهة الاسكندريه - كليه الهندسة\n الفرق التانيه - قسم مدنى "
+            android:id="@+id/txt_collage_faculty_dep_name"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/pink"
+            android:text="@string/change"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:textSize="@dimen/_15sdp"
+            android:id="@+id/txt_change"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/_2sdp"
+            android:background="@drawable/txt_under_line_pink"
+            />
+    </LinearLayout>

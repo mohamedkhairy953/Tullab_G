@@ -35,6 +35,15 @@
             android:textSize="@dimen/_17sdp"
             />
 
+        <me.zhanghai.android.materialratingbar.MaterialRatingBar
+            android:layout_marginTop="@dimen/_1sdp"
+            android:id="@+id/library_normal_ratingbar"
+            android:layout_width="@dimen/_90sdp"
+            android:layout_height="@dimen/_20sdp"
+            android:minWidth="@dimen/_120sdp"
+            android:stepSize=".5"
+            android:progressDrawable="@drawable/star_3"
+            style="@style/Widget.MaterialRatingBar.RatingBar.Indicator" />
 
 
         <TextView

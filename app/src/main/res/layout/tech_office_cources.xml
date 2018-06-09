@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/baby_Blue"
+    android:orientation="vertical">
+    <include layout="@layout/simple_toolbar"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/baby_Blue"
+            >
+
+            <TextView
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textSize="@dimen/_15sdp"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:text="@string/cources_tech_office"
+                />
+
+
+            <android.support.v7.widget.RecyclerView
+                android:background="@color/baby_Blue"
+                android:layout_marginTop="@dimen/_3sdp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:listitem="@layout/tech_office_cources_item"
+                />
+        </LinearLayout>
+            <include android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom|end"
+                layout="@layout/cirle_busket"
+                android:layout_margin="@dimen/_10sdp"
+                />
+        </FrameLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/baby_Blue"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <include layout="@layout/faculty_view" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:background="@color/white"
+        android:padding="@dimen/_10sdp"
+        >
+
+        <TextView
+            android:elevation="@dimen/_5sdp"
+            android:textAlignment="viewStart"
+            android:paddingEnd="@dimen/_15sdp"
+            android:drawableEnd="@drawable/path3"
+            android:drawableStart="@drawable/store"
+            android:drawablePadding="@dimen/_10sdp"
+            android:gravity="center|start"
+            android:paddingStart="@dimen/_7sdp"
+            android:text="مكتبة الحرمين"
+            android:textSize="@dimen/_14sdp"
+            android:layout_marginTop="@dimen/_2sdp"
+            android:textColor="@color/black"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_40sdp"
+            android:background="@drawable/edt_shape"
+            android:id="@+id/txt_library_name"
+            tools:ignore="RtlCompat" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/pink"
+            android:text="@string/click_to_see_profile"
+            android:textStyle="bold"
+            android:layout_marginTop="@dimen/_16sdp"
+            android:textSize="@dimen/_13sdp"
+            android:id="@+id/txt_show_library_page"
+            android:layout_gravity="center"
+            android:paddingBottom="@dimen/_2sdp"
+            android:background="@drawable/txt_under_line_pink"
+            />
+    </LinearLayout>
+
+</LinearLayout>

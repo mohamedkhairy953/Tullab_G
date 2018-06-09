@@ -129,6 +129,15 @@
     <string name="to_hint">الى</string>
     <string name="from">من</string>
     <string name="birthdate_">الميلاد</string>
+    <string name="choose_hint">أختيار</string>
+    <string name="fb">فيسبوك</string>
+    <string name="twitter">تويتر</string>
+    <string name="show_products">عرسض المنتجات و الخدمات</string>
+    <string name="prodects_services">المنتجات و الخدمات</string>
+    <string name="cources_tech_office">كورسات المكتب الفنى</string>
+    <string name="sounds_watchs">الصوتيات و المرئيات</string>
+    <string name="el_help_leasons">الدروس التعاونيه</string>
+    <string name="choose_mareial">اختر المادة</string>
     <string name="students_society">المجتمع الطلابي</string>
     <string name="sandwich_shawerma_swory">سندوتش شاورما فراخ سوري كبير</string>
     <string name="food_available">توفر المنتج</string>
@@ -157,6 +166,6 @@
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
-
+    <string name="click_to_see_profile">اضغط هنا لمشاهده صفحةالمكتبة</string>
     <string name="action_settings">Settings</string>
 </resources>
