@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.app_bar_navigation);
+        setContentView(R.layout.register_fragmnet);
         updateResources(this,"ar");
     }
     @Override
